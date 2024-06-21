@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: JetBrainsMono Nerd Font;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container .username p {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.container .description p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
