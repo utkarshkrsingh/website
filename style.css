@@ -14,7 +14,6 @@ body {
 }
 
 .container {
-    border: none;
     outline: none;
     border: 1px solid white;
     border-radius: 10px;
