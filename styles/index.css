@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: JetBrainsMono Nerd Font;
+    transition: .3s ease-in-out;
 }
 
 html {
@@ -42,8 +43,6 @@ body {
     border: none;
     border-radius: 10px;
     padding: 50px;
-    width: 850px;
-    height: 400px;
     background-color: var(--background-color-2);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
@@ -59,6 +58,7 @@ body {
     font-weight: 700;
     color: var(--text-color);
     font-size: 20px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -87,10 +87,31 @@ body {
     font-size: 16px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 850px) {
     .container {
         width: 90%;
         padding: 20px;
-        /* Adjust padding for smaller screens */
+    }
+
+    #name {
+        font-size: 75px;
+    }
+
+    .container .description p {
+        font-size: 12px;
+    }
+
+    .links a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .links {
+        flex-direction: column;
+    }
+    .links p {
+        display: none;
+    }
     }
 }
