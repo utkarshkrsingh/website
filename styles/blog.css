@@ -40,9 +40,16 @@ body {
 .blogs {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     min-height: 90vh;
+}
+
+.blogs div h1 {
+    color: var(--text-color);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .blogs div p {
