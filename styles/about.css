@@ -2,6 +2,7 @@
     --background-color: rgb(17, 17, 27);
     --background-color-2: rgb(30, 30, 46);
     --text-color: rgb(205, 214, 244);
+    --link-color: rgb(147, 153, 178);
 }
 
 
@@ -85,11 +86,11 @@ body {
 
 .status ul li a {
     color: var(--text-color);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .status ul li a:hover {
-    text-decoration: underline;
+    color: var(--link-color);
 }
 
 @media only screen and (max-width: 720px) {
