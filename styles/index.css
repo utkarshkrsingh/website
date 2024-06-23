@@ -12,6 +12,10 @@
     font-family: JetBrainsMono Nerd Font;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--background-color);
     display: flex;
@@ -34,6 +38,7 @@ body {
     outline: none;
     border: none;
     border-radius: 10px;
+    padding: 50px;
     width: 850px;
     height: 400px;
     background-color: var(--background-color-2);
