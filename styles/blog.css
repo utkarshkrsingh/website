@@ -1,0 +1,51 @@
+:root {
+    --background-color: rgb(17, 17, 27);
+    --background-color-2: rgb(30, 30, 46);
+    --text-color: rgb(205, 214, 244);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: JetBrainsMono Nerd Font;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.nav-bar div {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.nav-bar div a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-bar div a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.blogs div p {
+    color: var(--text-color);
+    font-weight: 700;
+}

@@ -1,0 +1,75 @@
+:root {
+    --background-color: rgb(17, 17, 27);
+    --background-color-2: rgb(30, 30, 46);
+    --text-color: rgb(137, 180, 250);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: JetBrainsMono Nerd Font;
+}
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#name {
+    font-family: "Tiro Devanagari Hindi";
+    font-size: 150px;
+    color: var(--text-color);
+}
+
+.container {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: var(--background-color-2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.container .username p {
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.container .description p {
+    font-weight: 700;
+    color: var(--text-color);
+    font-size: 20px;
+    text-align: center;
+}
+
+.container .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.links a{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.links p {
+    color: var(--text-color);
+    font-size: 16px;
+}
