@@ -90,18 +90,9 @@ body {
 
 @media only screen and (max-width: 720px) {
     .introduction {
-        width: 500px;
+        width: 90%;
     }
     .status {
-        width: 400px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .introduction {
-        width: 300px;
-    }
-    .status {
-        width: 250px;
+        width: 90%;
     }
 }
