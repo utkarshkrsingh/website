@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<head>
 		<meta charset="utf-8">
 		<title>std::endl vs \n · Utkarsh Kumar Singh</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="canonical" href="http://localhost:1313/blog/stdendl-vs-newline-character/">
+		<link rel="canonical" href="https://utkarsh.is-a.dev/blog/stdendl-vs-newline-character/">
 
 		
 
-		<link rel="stylesheet" href="http://localhost:1313/node_modules/normalize.css/normalize.css">
-		<link rel="stylesheet" href="http://localhost:1313/node_modules/firacode/distr/fira_code.css">
-		<link rel="stylesheet" href="http://localhost:1313/css/nanum-gothic-coding.css">
-		<link rel="stylesheet" href="http://localhost:1313/css/style.css">
+		<link rel="stylesheet" href="https://utkarsh.is-a.dev/node_modules/normalize.css/normalize.css">
+		<link rel="stylesheet" href="https://utkarsh.is-a.dev/node_modules/firacode/distr/fira_code.css">
+		<link rel="stylesheet" href="https://utkarsh.is-a.dev/css/nanum-gothic-coding.css">
+		<link rel="stylesheet" href="https://utkarsh.is-a.dev/css/style.css">
 		<script defer data-domain="aakash.is-a.dev" src="https://analytics.is-a.dev/js/script.js"></script>
 	</head>
 	<body>
@@ -22,9 +22,9 @@
 </header>
 
 <div id="main">
-	<nav><a href="http://localhost:1313/">Home</a> &middot;
-	<a href="http://localhost:1313/blog">Blog</a> &middot;
-	<a rel="me" href="http://localhost:1313/about">About</a> &middot;
+	<nav><a href="https://utkarsh.is-a.dev/">Home</a> &middot;
+	<a href="https://utkarsh.is-a.dev/blog">Blog</a> &middot;
+	<a rel="me" href="https://utkarsh.is-a.dev/about">About</a> &middot;
 	<a rel="me" href="https://github.com/utkarshkrsingh">GitHub</a> &middot;
 	<a rel="me" href="https://www.linkedin.com/in/utkarsh-kr-singh">LinkedIn</a>
 </nav>
@@ -44,10 +44,24 @@
 	<p>C++ offers multiple ways to insert newline in your output. You might encounter <code>std::endl</code> and <code>'\n'</code> used for this purpose. But are they exactly the same. While they appear to achieve identical results, there is a slight yet significant difference between the two!</p>
 <p>When we use <code>std::cout</code> it sends the data to the console. However, that output is typically not sent to the console immediately. Instead, the requested output &ldquo;gets in line&rdquo;, and is stored in a region of memory set aside to collect such requests (called a buffer). Periodically, the buffer is flushed, meaning all of the data collected in the buffer is transferred to its destination (in this case, the console).</p>
 <h2 id="stdendl-vs-n"><code>std::endl</code> vs <code>'\n'</code></h2>
-<p>Using <code>std::endl</code> is often inefficient, as it actually does two jobs: it outpus a newline (moving the cursor to the next line of the console), and it flushes the buffer (which is slow). If we output multiple lines of text ending with <code>std::endl</code>, we will get multiple flushes, which is slow and probably unnecessay.</p>
+<p>Using <code>std::endl</code> is often inefficient, as it actually does two jobs: it outpus a newline (moving the cursor to the next line of the console), and it flushes the buffer (which is slow). If we output multiple lines of text ending with <code>std::endl</code>, we will get multiple flushes, which is slow and probably unnecessary.</p>
 <p>When we output text to the console, we rarely need to flush the buffer directly. The output system in C++ is meant to flush itself on a regular basis, and allowing it to do so is both easier and more efficient.</p>
 <p>To output a newline without flushing the output buffer, we use <code>\n</code> (in single or double quotes), a special symbol that the compiler recognizes as a newline character. <code>\n</code> moves the cursor to the next line of the console without causing a flush, resulting in better performance. <code>\n</code> is also easier to type and can be inserted into existing double-quoted text.</p>
-
+<p>Here&rsquo;s an example that uses <code>'\n'</code> in a few different ways:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> x{<span style="color:#ae81ff">5</span>};
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;x is equal to: &#34;</span> <span style="color:#f92672">&lt;&lt;</span> x <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#39;\n&#39;</span>;    <span style="color:#75715e">// single quoted (by itself) (conventional)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Yep.&#34;</span> <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;                    <span style="color:#75715e">// double quoted (by itself) (unconventional but okay)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;And that&#39;s all folks!</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;         <span style="color:#75715e">// between double quotes in existing text (conventional)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This prints:</p>
+<pre tabindex="0"><code>x is equal to: 5 
+Yep.
+And that&#39;s all folks!
+</code></pre>
 
 	
 </article>
