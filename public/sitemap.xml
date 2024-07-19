@@ -3,19 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-07-19T21:44:40+05:30</lastmod>
+    <lastmod>2023-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/stdendl-vs-newline-character/</loc>
-    <lastmod>2024-07-19T21:44:40+05:30</lastmod>
+    <loc>http://localhost:1313/blog/2023/burnout/</loc>
+    <lastmod>2023-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-19T21:44:40+05:30</lastmod>
+    <lastmod>2023-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2024-07-19T21:18:46+05:30</lastmod>
+    <loc>http://localhost:1313/blog/2022/nextwm/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/wayland/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/nim/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2022/wayland-compositor-written-in-nim./</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rust/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2022/unix-domain-socket-ipc-in-rust./</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/waycrate/</loc>
+    <lastmod>2022-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2022/rewriting-swhkd-in-rust/</loc>
+    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/pgp/</loc>
   </url>
 </urlset>
