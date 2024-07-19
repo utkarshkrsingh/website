@@ -2,7 +2,7 @@
 <html>
 	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 		<meta charset="utf-8">
-		<title>Std::endl vs Newline Character · Utkarsh Kumar Singh</title>
+		<title>std::endl vs \n · Utkarsh Kumar Singh</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="canonical" href="http://localhost:1313/blog/stdendl-vs-newline-character/">
 
@@ -18,7 +18,7 @@
 
 
 <header>
-<h1>ॐ</h1>
+<h1>空</h1>
 </header>
 
 <div id="main">
@@ -35,13 +35,18 @@
 
 <article >
 	<header>
-		<h1>Std::endl vs Newline Character</h1>
+		<h1>std::endl vs \n</h1>
 		
-			<time datetime='2024-07-19T22:38:43&#43;05:30'>2024-07-19</time>
+			<time datetime='2024-07-19T23:22:45&#43;05:30'>2024-07-19</time>
 		
 	</header>
 
-	<h2 id="stdendl-vs-n"><code>std::endl</code> vs <code>'\n'</code></h2>
+	<p>C++ offers multiple ways to insert newline in your output. You might encounter <code>std::endl</code> and <code>'\n'</code> used for this purpose. But are they exactly the same. While they appear to achieve identical results, there is a slight yet significant difference between the two!</p>
+<p>When we use <code>std::cout</code> it sends the data to the console. However, that output is typically not sent to the console immediately. Instead, the requested output &ldquo;gets in line&rdquo;, and is stored in a region of memory set aside to collect such requests (called a buffer). Periodically, the buffer is flushed, meaning all of the data collected in the buffer is transferred to its destination (in this case, the console).</p>
+<h2 id="stdendl-vs-n"><code>std::endl</code> vs <code>'\n'</code></h2>
+<p>Using <code>std::endl</code> is often inefficient, as it actually does two jobs: it outpus a newline (moving the cursor to the next line of the console), and it flushes the buffer (which is slow). If we output multiple lines of text ending with <code>std::endl</code>, we will get multiple flushes, which is slow and probably unnecessay.</p>
+<p>When we output text to the console, we rarely need to flush the buffer directly. The output system in C++ is meant to flush itself on a regular basis, and allowing it to do so is both easier and more efficient.</p>
+<p>To output a newline without flushing the output buffer, we use <code>\n</code> (in single or double quotes), a special symbol that the compiler recognizes as a newline character. <code>\n</code> moves the cursor to the next line of the console without causing a flush, resulting in better performance. <code>\n</code> is also easier to type and can be inserted into existing double-quoted text.</p>
 
 
 	
