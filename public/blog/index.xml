@@ -2,14 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utkarsh Kumar Singh</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://utkarsh.is-a.dev/blog/</link>
     <description>Recent content in Blogs on Utkarsh Kumar Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jul 2024 22:38:43 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2024 22:59:30 +0530</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://utkarsh.is-a.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://utkarsh.is-a.dev/blog/my-first-post/</link>
+      <pubDate>Fri, 19 Jul 2024 22:59:30 +0530</pubDate>
+      
+      <guid>https://utkarsh.is-a.dev/blog/my-first-post/</guid>
+      <description></description>
+      
+      
+    </item>
     
   </channel>
 </rss>
