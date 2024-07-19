@@ -1,4 +1,4 @@
-baseURL = "https://aakash.is-a.dev/"
+baseURL = "https://utkarsh.is-a.dev/"
 languageCode = "en-us"
 title = "Shinyzenith"
 copyright = "BSD Zero Clause License"
@@ -10,7 +10,7 @@ paginate = 100
 	blog = "/blog/:year/:slug/"
 
 [author]
-	name = "Aakash Sen Sharma"
+	name = "Utkarsh Kumar Singh"
 
 [taxonomies]
 	tag = "tags"
