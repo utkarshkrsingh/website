@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utkarsh Kumar Singh</title>
-    <link>https://utkarsh.is-a.dev/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on Utkarsh Kumar Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Jul 2024 23:22:45 +0530</lastBuildDate>
     
-        <atom:link href="https://utkarsh.is-a.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>std::endl vs \n</title>
-      <link>https://utkarsh.is-a.dev/blog/stdendl-vs-newline-character/</link>
+      <link>http://localhost:1313/blog/stdendl-vs-newline-character/</link>
       <pubDate>Fri, 19 Jul 2024 23:22:45 +0530</pubDate>
       
-      <guid>https://utkarsh.is-a.dev/blog/stdendl-vs-newline-character/</guid>
+      <guid>http://localhost:1313/blog/stdendl-vs-newline-character/</guid>
       <description>&lt;p&gt;C++ offers multiple ways to insert newline in your output. You might encounter &lt;code&gt;std::endl&lt;/code&gt; and &lt;code&gt;&#39;\n&#39;&lt;/code&gt; used for this purpose. But are they exactly the same. While they appear to achieve identical results, there is a slight yet significant difference between the two!&lt;/p&gt;
 &lt;p&gt;When we use &lt;code&gt;std::cout&lt;/code&gt; it sends the data to the console. However, that output is typically not sent to the console immediately. Instead, the requested output &amp;ldquo;gets in line&amp;rdquo;, and is stored in a region of memory set aside to collect such requests (called a buffer). Periodically, the buffer is flushed, meaning all of the data collected in the buffer is transferred to its destination (in this case, the console).&lt;/p&gt;
 &lt;h2 id=&#34;stdendl-vs-n&#34;&gt;&lt;code&gt;std::endl&lt;/code&gt; vs &lt;code&gt;&#39;\n&#39;&lt;/code&gt;&lt;/h2&gt;

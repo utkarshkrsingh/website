@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utkarsh Kumar Singh</title>
-    <link>https://utkarsh.is-a.dev/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Utkarsh Kumar Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Jul 2024 23:22:45 +0530</lastBuildDate>
     
-        <atom:link href="https://utkarsh.is-a.dev/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blogs</title>
-      <link>https://utkarsh.is-a.dev/blog/</link>
+      <link>http://localhost:1313/blog/</link>
       <pubDate>Fri, 19 Jul 2024 23:22:45 +0530</pubDate>
       
-      <guid>https://utkarsh.is-a.dev/blog/</guid>
+      <guid>http://localhost:1313/blog/</guid>
       <description></description>
       
       
@@ -24,10 +24,10 @@
     
     <item>
       <title>About me</title>
-      <link>https://utkarsh.is-a.dev/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 19 Jul 2024 22:38:37 +0530</pubDate>
       
-      <guid>https://utkarsh.is-a.dev/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Utkarsh Kumar Singh&lt;/strong&gt;, a C/C++ enthusiast who likes Linux a lot. I like to write open-source software.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I maintain an AUR package named &lt;a href=&#34;https://github.com/utkarshkrsingh/taskhub.git&#34;&gt;TaskHub&lt;/a&gt;. A cli-based to-do list written in C++ using SQLite database.&lt;/li&gt;
