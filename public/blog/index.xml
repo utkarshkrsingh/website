@@ -6,10 +6,38 @@
     <description>Recent content in Blogs on Utkarsh Kumar Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Oct 2024 00:37:01 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2024 01:55:44 +0530</lastBuildDate>
     
         <atom:link href="https://utkarsh.is-a.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Runsync</title>
+      <link>https://utkarsh.is-a.dev/blog/runsync/</link>
+      <pubDate>Sun, 03 Nov 2024 01:55:44 +0530</pubDate>
+      
+      <guid>https://utkarsh.is-a.dev/blog/runsync/</guid>
+      <description>&lt;h2 id=&#34;introducing-runsync-a-smart-file-watcher-in-go&#34;&gt;Introducing Runsync: A Smart File Watcher in Go&lt;/h2&gt;
+&lt;p&gt;In the world of programming, efficiency and automation can significantly enhance our workflow. With this in mind, I created runsync, a powerful file watcher tool developed in Go that automates the process of compiling and running files in your current working directory.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-runsync&#34;&gt;What is Runsync?&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;runsync&lt;/strong&gt; is designed to monitor a specific directory for file modifications. When a change is detected, it automatically compiles and runs the modified file, streamlining the development process and saving valuable time.&lt;/p&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Monitoring&lt;/strong&gt;: Runsync uses the &lt;code&gt;inotify&lt;/code&gt; library to watch for changes in files, ensuring that any modifications trigger the appropriate actions immediately.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Language Support&lt;/strong&gt;: Currently, runsync supports Go, C/C++, and Python, making it a versatile tool for developers working in these languages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cross-Platform Support&lt;/strong&gt;: While runsync is currently only available for Linux, versions for macOS and Windows are coming soon!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;why-use-runsync&#34;&gt;Why Use Runsync?&lt;/h3&gt;
+&lt;p&gt;In a fast-paced development environment, maintaining efficiency is crucial. With runsync, you can eliminate the repetitive tasks of manually checking and compiling files, allowing you to concentrate on what truly matters: creating great software.&lt;/p&gt;
+&lt;h3 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h3&gt;
+&lt;p&gt;To get started with runsync, simply clone the repository from GitHub and run the tool in your desired directory. The setup process is straightforward, and detailed instructions are provided in the README file.&lt;/p&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;With runsync, I aim to enhance the productivity of developers who seek a seamless coding experience. I invite you to explore the project on GitHub and contribute to its ongoing development. Let’s automate and optimize our workflows together!&lt;/p&gt;
+&lt;p&gt;Feel free to reach out with any feedback or suggestions, and happy coding!&lt;/p&gt;
+</description>
+      
+      
+    </item>
     
     <item>
       <title>Archlinux Installation : A Beginner&#39;s Guide</title>
