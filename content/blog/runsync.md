@@ -4,7 +4,7 @@ date = 2024-11-03T01:55:44+05:30
 draft = false
 +++
 
-I recently started working on a project, and I generally use Neovim as my code editor. However, to compile the program, I had to exit Neovim, compile and run the code, and then reopen Neovim. Since I tend to be a bit lazy, I disliked having to compile and run things repeatedly. So, I came up with an idea for a program that monitors a specified directory. If any file is modified, it checks the file type against a config file, and if an entry exists, it compiles and runs the file.
+I recently started working on a project and generally use Neovim as my code editor. However, I had to exit Neovim to compile and run my code, then reopen it, which became inconvenient. To streamline the process, I came up with an idea for a program that monitors a specified directory for file modifications. If any file is modified, it checks the file type against a config file. If a match is found, it automatically compiles and runs the file.
 
 I chose Go as the language for this project. Since I am currently learning it, this project gives me valuable insight into system-level programming in Go. I named the program "runsync"—not the best name, but it serves the purpose. At this stage, runsync doesn’t support a config file and only works with Python, Go, C, and C++. Support for a config file is planned for a future release. I haven’t considered cross-platform compatibility yet, so I’m not sure if I’ll make it compatible with Windows or macOS.
 
