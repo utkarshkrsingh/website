@@ -4,24 +4,12 @@ date = 2024-11-03T01:55:44+05:30
 draft = false
 +++
 
-## Introducing Runsync: A Smart File Watcher in Go
-In the world of programming, efficiency and automation can significantly enhance our workflow. With this in mind, I created runsync, a powerful file watcher tool developed in Go that automates the process of compiling and running files in your current working directory.
+I recently started working on a project, and I generally use Neovim as my code editor. However, to compile the program, I had to exit Neovim, compile and run the code, and then reopen Neovim. Since I tend to be a bit lazy, I disliked having to compile and run things repeatedly. So, I came up with an idea for a program that monitors a specified directory. If any file is modified, it checks the file type against a config file, and if an entry exists, it compiles and runs the file.
 
-### What is Runsync?
-**runsync** is designed to monitor a specific directory for file modifications. When a change is detected, it automatically compiles and runs the modified file, streamlining the development process and saving valuable time.
+I chose Go as the language for this project. Since I am currently learning it, this project gives me valuable insight into system-level programming in Go. I named the program "runsync"—not the best name, but it serves the purpose. At this stage, runsync doesn’t support a config file and only works with Python, Go, C, and C++. Support for a config file is planned for a future release. I haven’t considered cross-platform compatibility yet, so I’m not sure if I’ll make it compatible with Windows or macOS.
 
-### Key Features
-- **Real-Time Monitoring**: Runsync uses the `inotify` library to watch for changes in files, ensuring that any modifications trigger the appropriate actions immediately.
-- **Language Support**: Currently, runsync supports Go, C/C++, and Python, making it a versatile tool for developers working in these languages.
-- **Cross-Platform Support**: While runsync is currently only available for Linux, versions for macOS and Windows are coming soon!
+#### What does runsync use under the hood ?
+There is a Linux service called [inotify](https://man7.org/linux/man-pages/man7/inotify.7.html), which monitors every directory in the file system and keeps track of the files within it. All file explorers use it to manage file accessibility. I used [fsnotify](https://github.comfanotify/fsnotify), a Go module that provides bindings for inotify, enabling its use in Go. Additionally, I used [faith/color](https://github.com/faith/color), a module that adds color to terminal text.
 
-### Why Use Runsync?
-In a fast-paced development environment, maintaining efficiency is crucial. With runsync, you can eliminate the repetitive tasks of manually checking and compiling files, allowing you to concentrate on what truly matters: creating great software.
-
-### Getting Started
-To get started with runsync, simply clone the repository from GitHub and run the tool in your desired directory. The setup process is straightforward, and detailed instructions are provided in the README file.
-
-### Conclusion
-With runsync, I aim to enhance the productivity of developers who seek a seamless coding experience. I invite you to explore the project on GitHub and contribute to its ongoing development. Let’s automate and optimize our workflows together!
-
-Feel free to reach out with any feedback or suggestions, and happy coding!
+#### What do I think about runsync ?
+It’s a great project for Linux users who want to gain a deeper understanding of how file systems work in Linux. I believe anyone using Linux should try coding a similar program in the language of their choice. While runsync may seem simple at first glance, it has a depth that makes it an interesting project. In the end, I encourage everyone to give it a try and see how far they can take it. Creating new programs is the core purpose of a programmer, and making it exceptional adds a personal touch as a skilled programmer. Thank you.

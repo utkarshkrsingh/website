@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://utkarsh.is-a.dev/blog/</loc>
     <lastmod>2024-11-03T01:55:44+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/runsync/</loc>
+    <loc>https://utkarsh.is-a.dev/blog/runsync/</loc>
     <lastmod>2024-11-03T01:55:44+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://utkarsh.is-a.dev/</loc>
     <lastmod>2024-11-03T01:55:44+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://utkarsh.is-a.dev/about/</loc>
     <lastmod>2024-07-19T22:38:37+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://utkarsh.is-a.dev/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://utkarsh.is-a.dev/tags/</loc>
   </url>
 </urlset>
