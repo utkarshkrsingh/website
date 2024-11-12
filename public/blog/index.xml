@@ -6,7 +6,7 @@
     <description>Recent content in Blogs on Utkarsh Kumar Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2024 01:55:44 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2024 01:55:44 +0530</lastBuildDate>
     
         <atom:link href="https://utkarsh.is-a.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Runsync</title>
       <link>https://utkarsh.is-a.dev/blog/runsync/</link>
-      <pubDate>Sun, 03 Nov 2024 01:55:44 +0530</pubDate>
+      <pubDate>Mon, 11 Nov 2024 01:55:44 +0530</pubDate>
       
       <guid>https://utkarsh.is-a.dev/blog/runsync/</guid>
       <description>&lt;p&gt;I recently started working on a project and generally use Neovim as my code editor. However, I had to exit Neovim to compile and run my code, then reopen it, which became inconvenient. To streamline the process, I came up with an idea for a program that monitors a specified directory for file modifications. If any file is modified, it checks the file type against a config file. If a match is found, it automatically compiles and runs the file.&lt;/p&gt;
