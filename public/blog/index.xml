@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utkarsh Kumar Singh</title>
-    <link>https://utkarsh.is-a.dev/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on Utkarsh Kumar Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Nov 2024 01:55:44 +0530</lastBuildDate>
     
-        <atom:link href="https://utkarsh.is-a.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Runsync</title>
-      <link>https://utkarsh.is-a.dev/blog/runsync/</link>
+      <link>http://localhost:1313/blog/runsync/</link>
       <pubDate>Mon, 11 Nov 2024 01:55:44 +0530</pubDate>
       
-      <guid>https://utkarsh.is-a.dev/blog/runsync/</guid>
+      <guid>http://localhost:1313/blog/runsync/</guid>
       <description>&lt;p&gt;I recently started working on a project and generally use Neovim as my code editor. However, I had to exit Neovim to compile and run my code, then reopen it, which became inconvenient. To streamline the process, I came up with an idea for a program that monitors a specified directory for file modifications. If any file is modified, it checks the file type against a config file. If a match is found, it automatically compiles and runs the file.&lt;/p&gt;
 &lt;p&gt;I chose Go as the language for this project. Since I am currently learning it, this project gives me valuable insight into system-level programming in Go. I named the program &amp;ldquo;runsync&amp;rdquo;—not the best name, but it serves the purpose. At this stage, runsync doesn’t support a config file and only works with Python, Go, C, and C++. Support for a config file is planned for a future release. I haven’t considered cross-platform compatibility yet, so I’m not sure if I’ll make it compatible with Windows or macOS.&lt;/p&gt;
 &lt;h4 id=&#34;what-does-runsync-use-under-the-hood-&#34;&gt;What does runsync use under the hood ?&lt;/h4&gt;
