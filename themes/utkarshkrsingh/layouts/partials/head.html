@@ -5,6 +5,7 @@
 		<title>{{ partial "title.txt" . }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="canonical" href="{{ .Permalink }}">
+        <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}">
 
 		{{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
 
@@ -16,7 +17,6 @@
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}node_modules/firacode/distr/fira_code.css">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/nanum-gothic-coding.css">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-        <link rel="icon" type="image/png" href="profile-icon.png">
 		<script defer data-domain="utkarsh.is-a.dev" src="https://analytics.is-a.dev/js/script.js"></script>
 	</head>
 	<body>
