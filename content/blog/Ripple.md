@@ -4,7 +4,7 @@ date = 2025-02-01T04:16:53+05:30
 draft = false
 +++
 
-I was thinking about GNU Make, a build automation tool that automates the process of compiling and building software projects. Though it's a fantastic tool in the developer's realm, learning or starting to use it can be a bit overwhelming at first, mainly due to its syntax, white-space sensitivity, and complexity for large projects. Even I faced some problems when I first started using it. This gave me an idea, why don't I build it again from scratch, simplifying it for both beginners and advanced users?
+I was thinking about [GNU Make](https://www.gnu.org/software/make/), a build automation tool that automates the process of compiling and building software projects. Though it's a fantastic tool in the developer's realm, learning or starting to use it can be a bit overwhelming at first, mainly due to its syntax, white-space sensitivity, and complexity for large projects. Even I faced some problems when I first started using it. This gave me an idea, why don't I build it again from scratch, simplifying it for both beginners and advanced users?
 
 #### Why from scratch ?
 Why not? Making something from scratch can give you insight into how it works, how it was initially designed, and the challenges that developers overcame. Building something from scratch will bring you a wealth of experience in return, and you can add new features along the way. For this, I chose Go as the primary language. Since I am exploring Go, this project will give me valuable insight into system-level programming. I named the project "Ripple", just like ripples in water, executing one task can trigger multiple dependent tasks.
