@@ -6,10 +6,54 @@
     <description>Recent content in Blogs on Utkarsh Kumar Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2025 04:16:53 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 10:38:05 +0530</lastBuildDate>
     
         <atom:link href="https://utkarsh.is-a.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lumix</title>
+      <link>https://utkarsh.is-a.dev/blog/lumix/</link>
+      <pubDate>Sun, 23 Mar 2025 10:38:05 +0530</pubDate>
+      
+      <guid>https://utkarsh.is-a.dev/blog/lumix/</guid>
+      <description>&lt;p&gt;In the world of digital creativity, image editing is an essential tool for photographers, designers, and everyday users alike. Whether you need to crop an image, adjust brightness, or apply stunning effects, having a simple yet powerful editor at your fingertips is invaluable. That’s where Lumix comes in—a lightweight, cross-platform image editor designed with Python, BeeWare, and OpenCV.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-lumix-&#34;&gt;What is Lumix ?&lt;/h2&gt;
+&lt;p&gt;Lumix is an intuitive image editor that supports Linux, macOS, and Windows, making it a versatile tool for users across different platforms. It provides essential image processing functionalities without the complexity of heavyweight software. Built using BeeWare for its seamless cross-platform GUI capabilities and powered by OpenCV, Lumix is both efficient and easy to use.&lt;/p&gt;
+&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;
+&lt;p&gt;With Lumix, you can perform a variety of image editing tasks, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Cropping &amp;amp; Resizing&lt;/strong&gt; – Trim your images to the perfect size effortlessly.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Brightness &amp;amp; Contrast Adjustment&lt;/strong&gt; – Fine-tune the exposure and contrast to enhance your photos.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Color Correction&lt;/strong&gt; – Adjust the color balance for a more vibrant and natural look.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Sharpening &amp;amp; Detail Enhancement&lt;/strong&gt; – Bring out the finer details in your images.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Filters &amp;amp; Effects&lt;/strong&gt; – Apply creative filters to give your images a unique touch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-lumix-&#34;&gt;Why Lumix ?&lt;/h2&gt;
+&lt;p&gt;Unlike bloated and complex software, Lumix is designed to be lightweight, beginner-friendly, and efficient. It provides all the fundamental tools needed for everyday image editing while ensuring a smooth and seamless user experience. Whether you&amp;rsquo;re a casual user looking for quick edits or a developer interested in Python-powered image processing, Lumix is a great choice.&lt;/p&gt;
+</description>
+      
+      
+    </item>
+    
+    <item>
+      <title>Ripple Update</title>
+      <link>https://utkarsh.is-a.dev/blog/ripple-update/</link>
+      <pubDate>Sun, 23 Mar 2025 10:29:12 +0530</pubDate>
+      
+      <guid>https://utkarsh.is-a.dev/blog/ripple-update/</guid>
+      <description>&lt;p&gt;It’s been an incredible journey building Ripple from the ground up. What started as a simple idea—creating a more intuitive and cross-platform build automation tool—has now become a functional reality. Ripple is no longer just an idea; it’s a tool that simplifies task automation, making it more accessible to both beginners and experienced developers.&lt;/p&gt;
+&lt;h2 id=&#34;what-ripple-achieves&#34;&gt;What Ripple Achieves&lt;/h2&gt;
+&lt;p&gt;Ripple now supports Linux, macOS, and Windows, staying true to its goal of being a truly cross-platform alternative to GNU Make. One of its core strengths is how it automatically executes dependent tasks before running the main task, ensuring that project dependencies are always in place before execution. With ripple.toml, a simple configuration file placed in the root of each project, users can define their build steps in an intuitive way—no complex syntax, no unnecessary learning curve.&lt;/p&gt;
+&lt;h2 id=&#34;the-road-ahead&#34;&gt;The Road Ahead&lt;/h2&gt;
+&lt;p&gt;Although Ripple has reached a solid working state, this is just the beginning. There are many optimizations and features I plan to implement. The long-term vision is to make Ripple a powerful yet easy-to-use automation tool that fits seamlessly into any development workflow. I also hope to involve more contributors in the project, expanding its capabilities and refining it through community collaboration.&lt;/p&gt;
+&lt;p&gt;If you’re a developer passionate about build systems, automation, or simply curious to contribute to an open-source project, I invite you to join me in shaping Ripple’s future. The possibilities are endless, and together, we can build something remarkable.&lt;/p&gt;
+&lt;p&gt;With that, I’m signing off from this chapter of Ripple’s story. But stay tuned—this is only the beginning!&lt;/p&gt;
+&lt;p&gt;Happy coding! 🚀&lt;/p&gt;
+</description>
+      
+      
+    </item>
     
     <item>
       <title>Ripple</title>
