@@ -9,5 +9,5 @@ I'm **Utkarsh Kumar Singh**, a C/C++ enthusiast who likes Linux a lot. I like to
 
 - I am currently learning Go and making significant progress through project-based learning. 
 - I enjoy exploring its features and building applications with it while sharing my progress publicly.
-- Feel free to contact me via [email](mailto:utkarshkrsingh@proton.me).
+- Feel free to contact me via [email](mailto:utkarsh.isa.dev@gmail.com).
 - The source code of this website is in the [GitHub](https://github.com/utkarshkrsingh/website.git).
