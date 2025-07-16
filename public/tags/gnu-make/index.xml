@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GNU Make on utkarshkrsingh</title>
+    <link>https://utkarsh.is-a.dev/tags/gnu-make/</link>
+    <description>Recent content in GNU Make on utkarshkrsingh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Utkarsh Kumar Singh</copyright>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://utkarsh.is-a.dev/tags/gnu-make/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ripple Update</title>
+      <link>https://utkarsh.is-a.dev/projects/1752665394534-ripple-update/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://utkarsh.is-a.dev/projects/1752665394534-ripple-update/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://utkarsh.is-a.dev/projects/1752665394534-ripple-update/featured.png" />
+    </item>
+    
+    <item>
+      <title>Ripple</title>
+      <link>https://utkarsh.is-a.dev/projects/1752665246054-ripple/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://utkarsh.is-a.dev/projects/1752665246054-ripple/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://utkarsh.is-a.dev/projects/1752665246054-ripple/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

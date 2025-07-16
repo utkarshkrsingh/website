@@ -1,43 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Utkarsh Kumar Singh</title>
+    <title>utkarshkrsingh</title>
     <link>https://utkarsh.is-a.dev/</link>
-    <description>Recent content on Utkarsh Kumar Singh</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 23 Mar 2025 10:29:12 +0530</lastBuildDate>
-    
-        <atom:link href="https://utkarsh.is-a.dev/index.xml" rel="self" type="application/rss+xml" />
-    
+    <description>Recent content on utkarshkrsingh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Utkarsh Kumar Singh</copyright>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://utkarsh.is-a.dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Blogs</title>
-      <link>https://utkarsh.is-a.dev/blog/</link>
-      <pubDate>Sun, 23 Mar 2025 10:29:12 +0530</pubDate>
+      <title>Ripple Update</title>
+      <link>https://utkarsh.is-a.dev/projects/1752665394534-ripple-update/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://utkarsh.is-a.dev/blog/</guid>
+      <guid>https://utkarsh.is-a.dev/projects/1752665394534-ripple-update/</guid>
       <description></description>
-      
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://utkarsh.is-a.dev/projects/1752665394534-ripple-update/featured.png" />
     </item>
     
     <item>
-      <title>About me</title>
-      <link>https://utkarsh.is-a.dev/about/</link>
-      <pubDate>Fri, 19 Jul 2024 22:38:37 +0530</pubDate>
+      <title>Ripple</title>
+      <link>https://utkarsh.is-a.dev/projects/1752665246054-ripple/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://utkarsh.is-a.dev/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Utkarsh Kumar Singh&lt;/strong&gt;, a C/C++ enthusiast who likes Linux a lot. I like to write open-source software.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;I am currently learning Go and making significant progress through project-based learning.&lt;/li&gt;
-&lt;li&gt;I enjoy exploring its features and building applications with it while sharing my progress publicly.&lt;/li&gt;
-&lt;li&gt;Feel free to contact me via &lt;a href=&#34;mailto:utkarsh.isa.dev@gmail.com&#34;&gt;email&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;The source code of this website is in the &lt;a href=&#34;https://github.com/utkarshkrsingh/website.git&#34;&gt;GitHub&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://utkarsh.is-a.dev/projects/1752665246054-ripple/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://utkarsh.is-a.dev/projects/1752665246054-ripple/featured.png" />
+    </item>
+    
+    <item>
+      <title>Snag</title>
+      <link>https://utkarsh.is-a.dev/projects/1752665533660-snag/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
       
-      
+      <guid>https://utkarsh.is-a.dev/projects/1752665533660-snag/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://utkarsh.is-a.dev/projects/1752665533660-snag/featured.png" />
     </item>
     
   </channel>
