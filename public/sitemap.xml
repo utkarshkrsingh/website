@@ -2,10 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://utkarsh.is-a.dev/about/</loc>
+    <lastmod>2025-09-10T14:20:56+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://utkarsh.is-a.dev/</loc>
+    <lastmod>2025-09-10T14:20:56+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://utkarsh.is-a.dev/blog/</loc>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://utkarsh.is-a.dev/tags/gnu-make/</loc>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://utkarsh.is-a.dev/tags/go/</loc>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://utkarsh.is-a.dev/blog/ripple-update/</loc>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://utkarsh.is-a.dev/tags/</loc>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://utkarsh.is-a.dev/blog/ripple/</loc>
+    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://utkarsh.is-a.dev/tags/inotify/</loc>
+    <lastmod>2024-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://utkarsh.is-a.dev/blog/snag/</loc>
+    <lastmod>2024-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://utkarsh.is-a.dev/categories/</loc>
   </url>
 </urlset>
