@@ -6,63 +6,9 @@
     <description>Recent content on Utkarsh Kumar Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Sep 2025 14:20:56 +0530</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Wed, 10 Sep 2025 14:20:56 +0530</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Utkarsh Kumar Singh&lt;/strong&gt;, a Golang developer passionate about building scalable and efficient systems.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;I develop backend systems and tools in &lt;strong&gt;Golang&lt;/strong&gt;, focusing on concurrency, scalability, and real-time communication.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Some of my projects include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GoParty&lt;/strong&gt; – A real-time watch party app with synchronized video playback and chat.
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/utkarshkrsingh/goparty-server&#34;&gt;goparty-server&lt;/a&gt; – Golang backend with WebSockets and JWT-based authentication.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/utkarshkrsingh/goparty-client&#34;&gt;goparty-client&lt;/a&gt; – React + TypeScript frontend with TailwindCSS.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/utkarshkrsingh/ripple&#34;&gt;Ripple&lt;/a&gt; – A cross-platform build automation tool with parallel task execution.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/utkarshkrsingh/snag&#34;&gt;Snag&lt;/a&gt; – A lightweight file watcher to automate builds and executions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;My tech stack includes &lt;strong&gt;Golang, C++, TypeScript, React, PostgreSQL&lt;/strong&gt;, and tools like &lt;strong&gt;Docker, Git, and Linux&lt;/strong&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I&amp;rsquo;m currently pursuing a &lt;strong&gt;B.Tech in Electronics &amp;amp; Computer Science Engineering&lt;/strong&gt; at KIIT University.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Most of my open-source work is on &lt;a href=&#34;https://github.com/utkarshkrsingh&#34;&gt;GitHub&lt;/a&gt; and I also share solutions on &lt;a href=&#34;https://leetcode.com/u/utkarshkrsingh&#34;&gt;LeetCode&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Feel free to reach out via &lt;a href=&#34;mailto:utkarsh.isa.dev@gmail.com&#34;&gt;email&lt;/a&gt; or connect with me on &lt;a href=&#34;https://linkedin.com/in/utkarshkrsingh1103&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      
-      
-    </item>
-    
-    <item>
-      <title>Blogs</title>
-      <link>http://localhost:1313/blog/</link>
-      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blog/</guid>
-      <description></description>
-      
-      
-    </item>
     
   </channel>
 </rss>
