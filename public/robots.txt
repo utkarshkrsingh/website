@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://utkarsh.is-a.dev/sitemap.xml

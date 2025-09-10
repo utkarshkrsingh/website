@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Utkarsh Kumar Singh</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blogs on Utkarsh Kumar Singh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ripple Update</title>
+      <link>http://localhost:1313/blog/ripple-update/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ripple-update/</guid>
+      <description>&lt;p&gt;It’s been an incredible journey building Ripple from the ground up. What started as a simple idea—creating a more intuitive and cross-platform build automation tool—has now become a functional reality. Ripple is no longer just an idea; it’s a tool that simplifies task automation, making it more accessible to both beginners and experienced developers.&lt;/p&gt;
+&lt;h2 id=&#34;what-ripple-achieves&#34;&gt;What Ripple Achieves&lt;/h2&gt;
+&lt;p&gt;Ripple now supports Linux, macOS, and Windows, staying true to its goal of being a truly cross-platform alternative to GNU Make. One of its core strengths is how it automatically executes dependent tasks before running the main task, ensuring that project dependencies are always in place before execution. With ripple.toml, a simple configuration file placed in the root of each project, users can define their build steps in an intuitive way—no complex syntax, no unnecessary learning curve.&lt;/p&gt;
+&lt;h2 id=&#34;the-road-ahead&#34;&gt;The Road Ahead&lt;/h2&gt;
+&lt;p&gt;Although Ripple has reached a solid working state, this is just the beginning. There are many optimizations and features I plan to implement. The long-term vision is to make Ripple a powerful yet easy-to-use automation tool that fits seamlessly into any development workflow. I also hope to involve more contributors in the project, expanding its capabilities and refining it through community collaboration.&lt;/p&gt;
+&lt;p&gt;If you’re a developer passionate about build systems, automation, or simply curious to contribute to an open-source project, I invite you to join me in shaping Ripple’s future. The possibilities are endless, and together, we can build something remarkable.&lt;/p&gt;
+&lt;p&gt;With that, I’m signing off from this chapter of Ripple’s story. But stay tuned—this is only the beginning!&lt;/p&gt;
+&lt;p&gt;Happy coding! 🚀&lt;/p&gt;
+</description>
+      
+      <category>Go</category>
+      
+      <category>GNU Make</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Ripple</title>
+      <link>http://localhost:1313/blog/ripple/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ripple/</guid>
+      <description>&lt;p&gt;I was thinking about &lt;a href=&#34;https://www.gnu.org/software/make/&#34;&gt;GNU Make&lt;/a&gt;, a build automation tool that automates the process of compiling and building software projects. Though it&amp;rsquo;s a fantastic tool in the developer&amp;rsquo;s realm, learning or starting to use it can be a bit overwhelming at first, mainly due to its syntax, white-space sensitivity, and complexity for large projects. Even I faced some problems when I first started using it. This gave me an idea, why don&amp;rsquo;t I build it again from scratch, simplifying it for both beginners and advanced users?&lt;/p&gt;
+&lt;h4 id=&#34;why-from-scratch-&#34;&gt;Why from scratch ?&lt;/h4&gt;
+&lt;p&gt;Why not? Making something from scratch can give you insight into how it works, how it was initially designed, and the challenges that developers overcame. Building something from scratch will bring you a wealth of experience in return, and you can add new features along the way. For this, I chose Go as the primary language. Since I am exploring Go, this project will give me valuable insight into system-level programming. I named the project &amp;ldquo;Ripple&amp;rdquo;, just like ripples in water, executing one task can trigger multiple dependent tasks.&lt;/p&gt;
+&lt;p&gt;Unlike GNU Make, which is not natively available on Windows, I aim to make Ripple available for Linux, macOS, and even Windows. Unlike GNU Make, which requires additional tools to work properly on Windows, I intend to make Ripple readily available, just install it and use it, no additional setup required.&lt;/p&gt;
+&lt;p&gt;Though Ripple is still under development, I can see it becoming a fully-fledged tool that could potentially replace GNU Make someday if everything goes as planned. Right now, I am working on Ripple alone, but I intend to invite all my fellow Gophers who want to create something new, innovative, and exciting to use.&lt;/p&gt;
+&lt;p&gt;With this, I am signing off and will keep you updated!&lt;/p&gt;
+</description>
+      
+      <category>Go</category>
+      
+      <category>GNU Make</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Snag</title>
+      <link>http://localhost:1313/blog/snag/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/snag/</guid>
+      <description>&lt;p&gt;I recently started working on a project and generally use Neovim as my code editor. However, I had to exit Neovim to compile and run my code, then reopen it, which became inconvenient. To streamline the process, I came up with an idea for a program that monitors a specified directory for file modifications. If any file is modified, it checks the file type against a config file. If a match is found, it automatically compiles and runs the file.&lt;/p&gt;
+&lt;p&gt;I chose Go as the language for this project. Since I am currently learning it, this project gives me valuable insight into system-level programming in Go. I named the program &amp;ldquo;snag&amp;rdquo;—not the best name, but it serves the purpose. At this stage, snag doesn’t support a config file and only works with Python, Go, C, and C++. Support for a config file is planned for a future release. I haven’t considered cross-platform compatibility yet, so I’m not sure if I’ll make it compatible with Windows or macOS.&lt;/p&gt;
+&lt;h4 id=&#34;what-does-snag-use-under-the-hood-&#34;&gt;What does snag use under the hood ?&lt;/h4&gt;
+&lt;p&gt;There is a Linux service called &lt;a href=&#34;https://man7.org/linux/man-pages/man7/inotify.7.html&#34;&gt;inotify&lt;/a&gt;, which monitors every directory in the file system and keeps track of the files within it. All file explorers use it to manage file accessibility. I used &lt;a href=&#34;https://github.com/fsnotify/fsnotify&#34;&gt;fsnotify&lt;/a&gt;, a Go module that provides bindings for inotify, enabling its use in Go. Additionally, I used &lt;a href=&#34;https://github.com/fatih/color&#34;&gt;fatih/color&lt;/a&gt;, a module that adds color to terminal text.&lt;/p&gt;
+&lt;h4 id=&#34;what-do-i-think-about-snag-&#34;&gt;What do I think about snag ?&lt;/h4&gt;
+&lt;p&gt;It’s a great project for Linux users who want to gain a deeper understanding of how file systems work in Linux. I believe anyone using Linux should try coding a similar program in the language of their choice. While snag may seem simple at first glance, it has a depth that makes it an interesting project. In the end, I encourage everyone to give it a try and see how far they can take it. Creating new programs is the core purpose of a programmer, and making it exceptional adds a personal touch as a skilled programmer. Thank you. I will keep you updated on the progress of this project.&lt;/p&gt;
+</description>
+      
+      <category>Go</category>
+      
+      <category>Inotify</category>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

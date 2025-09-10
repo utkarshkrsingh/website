@@ -1,3 +1,4 @@
 baseURL = 'https://utkarsh.is-a.dev/'
 languageCode = 'en-us'
-title = 'My Website'
+title = 'Utkarsh Kumar Singh'
+theme = 'utkarshkrsingh'
