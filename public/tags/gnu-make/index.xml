@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utkarsh Kumar Singh</title>
-    <link>https://utkarsh.is-a.dev/tags/gnu-make/</link>
+    <link>http://localhost:1313/tags/gnu-make/</link>
     <description>Recent content in GNU Make on Utkarsh Kumar Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://utkarsh.is-a.dev/tags/gnu-make/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/gnu-make/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ripple Update</title>
-      <link>https://utkarsh.is-a.dev/blog/ripple-update/</link>
+      <link>http://localhost:1313/blog/ripple-update/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://utkarsh.is-a.dev/blog/ripple-update/</guid>
+      <guid>http://localhost:1313/blog/ripple-update/</guid>
       <description>&lt;p&gt;It’s been an incredible journey building Ripple from the ground up. What started as a simple idea—creating a more intuitive and cross-platform build automation tool—has now become a functional reality. Ripple is no longer just an idea; it’s a tool that simplifies task automation, making it more accessible to both beginners and experienced developers.&lt;/p&gt;
 &lt;h2 id=&#34;what-ripple-achieves&#34;&gt;What Ripple Achieves&lt;/h2&gt;
 &lt;p&gt;Ripple now supports Linux, macOS, and Windows, staying true to its goal of being a truly cross-platform alternative to GNU Make. One of its core strengths is how it automatically executes dependent tasks before running the main task, ensuring that project dependencies are always in place before execution. With ripple.toml, a simple configuration file placed in the root of each project, users can define their build steps in an intuitive way—no complex syntax, no unnecessary learning curve.&lt;/p&gt;
@@ -36,10 +36,10 @@
     
     <item>
       <title>Ripple</title>
-      <link>https://utkarsh.is-a.dev/blog/ripple/</link>
+      <link>http://localhost:1313/blog/ripple/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://utkarsh.is-a.dev/blog/ripple/</guid>
+      <guid>http://localhost:1313/blog/ripple/</guid>
       <description>&lt;p&gt;I was thinking about &lt;a href=&#34;https://www.gnu.org/software/make/&#34;&gt;GNU Make&lt;/a&gt;, a build automation tool that automates the process of compiling and building software projects. Though it&amp;rsquo;s a fantastic tool in the developer&amp;rsquo;s realm, learning or starting to use it can be a bit overwhelming at first, mainly due to its syntax, white-space sensitivity, and complexity for large projects. Even I faced some problems when I first started using it. This gave me an idea, why don&amp;rsquo;t I build it again from scratch, simplifying it for both beginners and advanced users?&lt;/p&gt;
 &lt;h4 id=&#34;why-from-scratch-&#34;&gt;Why from scratch ?&lt;/h4&gt;
 &lt;p&gt;Why not? Making something from scratch can give you insight into how it works, how it was initially designed, and the challenges that developers overcame. Building something from scratch will bring you a wealth of experience in return, and you can add new features along the way. For this, I chose Go as the primary language. Since I am exploring Go, this project will give me valuable insight into system-level programming. I named the project &amp;ldquo;Ripple&amp;rdquo;, just like ripples in water, executing one task can trigger multiple dependent tasks.&lt;/p&gt;
