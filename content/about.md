@@ -19,9 +19,6 @@ I'm **Utkarsh Kumar Singh**, a Go developer passionate about building scalable a
 
 - My tech stack includes **Go, PostgreSQL, MySQL**, and tools like **Docker, Git, and Linux**.
 
-- Currently, I am learning C++ to build a strong foundation for exploring systems programming areas such as compilers, databases, and computer 
-networking in greater depth.
-
 - I completed my **B.Tech in Electronics & Computer Science Engineering** from KIIT University.
 
 - Feel free to reach out via [email](mailto:utkarshkrsingh1103@gmail.com) or connect with me on [LinkedIn](https://linkedin.com/in/utkarshkrsingh1103).
