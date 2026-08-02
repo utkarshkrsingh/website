@@ -10,7 +10,7 @@ I'm **Utkarsh Kumar Singh**, a Go developer passionate about building scalable a
 
 - Some of my projects include:
 
-  - [Streamless](https://github.com/utkarshkrsingh/snippetbox) -  Snippetbox is a Go-based web application that allows users to create, view,
+  - [Snippetbox](https://github.com/utkarshkrsingh/snippetbox) -  Snippetbox is a Go-based web application that allows users to create, view,
   and share text snippets. It demonstrates modern web development practices, including routing, template rendering, database integration, form 
   validation, session management, authentication, middleware, and secure application design.
 
