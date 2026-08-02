@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Utkarsh Kumar Singh</title>
+    <link>https://utkarshkrsingh.com/</link>
+    <description>Recent content on Utkarsh Kumar Singh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Aug 2026 01:37:17 +0530</lastBuildDate>
+    
+        <atom:link href="https://utkarshkrsingh.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project</title>
+      <link>https://utkarshkrsingh.com/project/</link>
+      <pubDate>Mon, 03 Aug 2026 01:37:17 +0530</pubDate>
+      
+      <guid>https://utkarshkrsingh.com/project/</guid>
+      <description>&lt;h1 id=&#34;no-projects-to-show&#34;&gt;No Projects to Show&lt;/h1&gt;
+</description>
+      
+      
+    </item>
+    
+    <item>
+      <title>Blogs</title>
+      <link>https://utkarshkrsingh.com/blog/</link>
+      <pubDate>Mon, 03 Aug 2026 01:36:08 +0530</pubDate>
+      
+      <guid>https://utkarshkrsingh.com/blog/</guid>
+      <description>&lt;h1 id=&#34;no-blogs-to-show&#34;&gt;No Blogs to Show&lt;/h1&gt;
+</description>
+      
+      
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://utkarshkrsingh.com/about/</link>
+      <pubDate>Mon, 25 May 2026 14:20:56 +0530</pubDate>
+      
+      <guid>https://utkarshkrsingh.com/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Utkarsh Kumar Singh&lt;/strong&gt;, a Go developer passionate about building scalable and efficient systems.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I develop backend systems and tools in &lt;strong&gt;Go&lt;/strong&gt;, focusing on concurrency, scalability, and real-time communication.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Some of my projects include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/utkarshkrsingh/snippetbox&#34;&gt;Snippetbox&lt;/a&gt; -  Snippetbox is a Go-based web application that allows users to create, view,
+and share text snippets. It demonstrates modern web development practices, including routing, template rendering, database integration, form
+validation, session management, authentication, middleware, and secure application design.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/utkarshkrsingh/tinyHTTP&#34;&gt;TinyHTTP&lt;/a&gt; – Built an HTTP/1.1 server from scratch in Go, including TCP stream handling,
+request parsing, and response generation without using net/http. .&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My tech stack includes &lt;strong&gt;Go, PostgreSQL, MySQL&lt;/strong&gt;, and tools like &lt;strong&gt;Docker, Git, and Linux&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Currently, I am learning C++ to build a strong foundation for exploring systems programming areas such as compilers, databases, and computer
+networking in greater depth.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I completed my &lt;strong&gt;B.Tech in Electronics &amp;amp; Computer Science Engineering&lt;/strong&gt; from KIIT University.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Feel free to reach out via &lt;a href=&#34;mailto:utkarshkrsingh1103@gmail.com&#34;&gt;email&lt;/a&gt; or connect with me on &lt;a href=&#34;https://linkedin.com/in/utkarshkrsingh1103&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+      
+    </item>
+    
+    <item>
+      <title>Neotabs</title>
+      <link>https://utkarshkrsingh.com/neotab/</link>
+      <pubDate>Mon, 23 Mar 2026 17:36:21 +0530</pubDate>
+      
+      <guid>https://utkarshkrsingh.com/neotab/</guid>
+      <description></description>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

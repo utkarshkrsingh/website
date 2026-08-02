@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Utkarsh Kumar Singh</title>
+    <link>https://utkarshkrsingh.com/neotab/</link>
+    <description>Recent content in Neotabs on Utkarsh Kumar Singh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Mar 2026 17:36:21 +0530</lastBuildDate>
+    
+        <atom:link href="https://utkarshkrsingh.com/neotab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NeoTab - Privacy Policy</title>
+      <link>https://utkarshkrsingh.com/neotab/privacy/</link>
+      <pubDate>Mon, 23 Mar 2026 17:36:21 +0530</pubDate>
+      
+      <guid>https://utkarshkrsingh.com/neotab/privacy/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Privacy Policy for NeoTab&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;NeoTab does not collect, store, or transmit any personal data from users.&lt;/p&gt;
+&lt;p&gt;All data used by the extension, such as bookmarks and user preferences, is stored locally within the user&amp;rsquo;s browser using standard browser storage APIs.&lt;/p&gt;
+&lt;p&gt;NeoTab does not use any external servers, analytics tools, or tracking technologies.&lt;/p&gt;
+&lt;p&gt;No user data is shared with third parties.&lt;/p&gt;
+&lt;p&gt;If you have any questions, you can contact: utkarshkrsingh.me&lt;/p&gt;
+</description>
+      
+      
+    </item>
+    
+  </channel>
+</rss>
