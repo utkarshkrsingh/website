@@ -1,0 +1,12 @@
+baseURL = 'https://utkarshkrsingh.com/'
+locale = 'en-us'
+title = 'Utkarsh Kumar Singh'
+theme = 'utkarshkrsingh'
+
+[params.author]
+name = "Utkarsh Kumar Singh"
+homepage = "https://utkarshkrsingh.com"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
