@@ -6,6 +6,6 @@ COPY . .
 
 RUN hugo
 
-FROM caddy:2-alpine
+FROM nginx:alpine
 
-COPY --from=builder /src/public /usr/share/caddy
+COPY --from=builder /src/public /usr/share/nginx/html
