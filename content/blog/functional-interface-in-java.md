@@ -1,8 +1,7 @@
 +++
 date = '2026-09-14T14:36:42+05:30'
 draft = false
-title = 'Functional Interfaces in Java: It's Not Just About One Method'
-
+title = "Functional Interfaces in Java: It's Not Just About One Method"
 +++
 ## Functional Interfaces in Java: It's Not Just About One Method
 
