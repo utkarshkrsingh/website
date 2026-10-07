@@ -4,8 +4,6 @@ draft = false
 title = 'One Window, N Requests: Building a Rate Limiter from Scratch in Go'
 +++
 
-# Building a Fixed Window Rate Limiter in Go
-
 ## Why Does a Rate Limiter Exist?
 
 Suppose you build a REST API for some business purpose and deploy it. Suddenly, one morning, you see that your server has crashed due to an overwhelming number of incoming requests.
